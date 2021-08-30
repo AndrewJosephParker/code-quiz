@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coding Quiz</title>
+    <title>High Scores</title>
 
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
@@ -37,38 +37,47 @@
       <nav class="navbar nabar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Coding Quiz</a>
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="leaderboard.html">High Scores</a>
           </li>
           <li class="nav-item"></li>
         </ul>
-      </nav>
+      <nav>
     </header>
     <main>
-      <div class="jumbotron">
-        <div class="container start">
-          <div class="row">
-            <div class="col-md-12 start-header">
-              <h1 class="display-4">Welcome to the Coding Quiz!</h1>
-            </div>
+      <div class="container lb-container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="lb-title">High Scores</h1>
           </div>
-          <div class="row">
-            <div class="col-md-12 intro">
-              <p>Answer all the coding questions before the timer runs out</p>
-            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 lb-col" id="lb-col">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Ranking</th>
+                  <th scope="col">Player Name</th>
+                  <th scope="col">Time</th>
+                </tr>
+              </thead>
+              <tbody
+                class="leaderboard-listing"
+                id="leaderboard-listing"
+              ></tbody>
+            </table>
           </div>
-          <div class="row">
-            <div class="col-md-12">
-              <a
-                type="button"
-                href="quiz.html"
-                class="btn btn-primary btn-lg start-button"
-                >Start</a
-              >
-            </div>
+        </div>
+        <div class="row btn-row">
+          <div class="col-md-12">
+            <a href="quiz.html" class="btn btn-primary" id="restart"
+              >Restart Quiz</a
+            >
+            <button class="btn btn-secondary" id="clear">Clear Scores</button>
           </div>
         </div>
       </div>
     </main>
   </body>
+  <script src="assets/js/leaderboard.js"></script>
 </html>
