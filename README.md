@@ -18,3 +18,6 @@ THEN I can save my initials and score
 
 # A link to the website
 https://andrewjosephparker.github.io/code-quiz/
+
+# Screenshots
+
