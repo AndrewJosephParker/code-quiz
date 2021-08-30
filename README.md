@@ -21,3 +21,12 @@ https://andrewjosephparker.github.io/code-quiz/
 
 # Screenshots
 
+![2021-08-29 (6)](https://user-images.githubusercontent.com/83850651/131283498-217545b4-2ec2-43ef-aa44-744234aa7213.png)
+
+![2021-08-29 (7)](https://user-images.githubusercontent.com/83850651/131283505-00df39d8-73dd-4e6a-8895-6ed98b5bdb3a.png)
+
+![2021-08-29 (8)](https://user-images.githubusercontent.com/83850651/131283518-85282953-823c-4590-babb-045b64170cc1.png)
+
+![2021-08-29 (9)](https://user-images.githubusercontent.com/83850651/131283530-5d67ff6e-8821-4b66-a095-14f6592f84b5.png)
+
+![2021-08-29 (10)](https://user-images.githubusercontent.com/83850651/131283540-3e722917-16ea-4f32-b3bc-0537e8ae8a4d.png)
